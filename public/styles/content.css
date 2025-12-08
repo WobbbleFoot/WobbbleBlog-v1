@@ -1,0 +1,165 @@
+.buttons {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: center;
+}
+
+input.button {
+    background: linear-gradient(90deg, #5c00a3, #bb61ff);
+    color: rgb(255, 255, 0);
+    width: 20em;
+    height: 10em;
+    border-radius: 20pt;
+
+}
+
+form.CRUD {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.text-color {
+  color: yellow;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-mono-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.emoji {
+  vertical-align: -0.2em; /* tweak slightly to match baseline */
+}
+
+.post-container {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+}
+
+.item > .text-input {
+    width: 95%;
+    box-sizing: border-box; /* prevents padding from breaking the width */
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 3em;
+} 
+
+.item {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-input {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    backdrop-filter: blur(6px); /* makes background blurry */
+    color: white;
+}
+
+.text-area {
+    height: 30vw;
+}
+
+.submit-input {
+    background: linear-gradient(90deg, #5c00a3, #bb61ff);
+    color: rgb(255, 255, 0);
+    width: 8em;
+    height: 4em;
+    border-radius: 20pt;
+
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 5vw;
+}
+
+.submit-save-changes {
+    background: linear-gradient(90deg, #5c00a3, #bb61ff);
+    color: rgb(255, 255, 0);
+    width: 18em;
+    height: 4em;
+    border-radius: 20pt;
+
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 5vw;    
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:link {
+    color: yellow;     /* normal link */
+}
+
+a:visited {
+    color: yellow;   /* after clicking */
+}
+
+a:hover {
+    color: red;   /* when cursor is over */
+}
+
+a:active {
+    color: blue;      /* when pressing mouse button */
+}
+
+ul {
+    color: yellow;
+}
+
+.preserve {
+    white-space: pre-wrap;
+}
+
+.view-container {
+    color: yellow;
+    padding-left: 2vw;
+}
+
+.view-title {
+    color: rgb(250, 59, 155);
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    margin-top: 6vw;
+}
+
+/* .post-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    justify-items: center;
+}
+
+.item-1 {
+    width: 500px;;
+}
+
+.item-2 {
+    grid-column: span 4;
+    
+} */

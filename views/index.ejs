@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs") %>
+    <div class="buttons">
+        <div>
+            <form action="/create" method="POST" class="CRUD">
+                <input type="submit" value="Create Post" class="button press-start-2p-regular">
+            </form>
+        </div>
+
+        <div>
+            <form action="/edit" method="POST" class="CRUD">
+                <input type="submit" value="Edit Post" class="button press-start-2p-regular">
+            </form>            
+        </div>
+
+        <div>
+            <form action="/view" method="POST" class="CRUD">
+            <input type="submit" value="View Posts" class="button press-start-2p-regular">
+            </form>      
+        </div>
+
+        <div>
+            <form action="/delete" method="POST" class="CRUD">
+                <input type="submit" value="Delete Post" class="button press-start-2p-regular">
+            </form>            
+        </div>
+
+    </div>
+
+<%- include("partials/footer.ejs") %>

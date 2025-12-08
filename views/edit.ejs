@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+
+    <!-- <form action="/" method="POST">
+        <input type="text" name="title" id="title" "> <br>
+        <input type="text" name="content" id="content" "> <br>
+        <input type="hidden" name="id" id="id" >
+        <input type="submit" id="submit" value="Save Changes">
+    </form> -->
+
+    <form action="/" method="POST">
+        <div class="post-container">
+            <div class="item item-1">
+                <input type="text" name="title" id="title" placeholder="Title" class="text-input roboto-mono-font" value="<%= blog.title %>"><br>
+            </div>
+            <div class="item item-2">
+                <textarea name="content" id="content" placeholder="Content" class="text-input text-area preserve roboto-mono-font">
+                    <%= blog.content.trimStart() %>
+                </textarea>
+            </div>
+            <input type="hidden" name="id" id="id" value="<%= blog.id %>">
+            <div class=item item-3"">
+                <input type="submit" id="submit" class="submit-save-changes" value="Save Changes">
+            </div>
+        </div>
+    </form>
+
+<%- include("partials/footer.ejs") %>
+
+<!-- value="<%= blog.title %>"
+
+value="<%= blog.content %>"
+value="<%= blog.id %>" -->

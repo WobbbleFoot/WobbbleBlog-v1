@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+    <% blogs.forEach((b) => { %>
+        <ul>
+            <li>
+                <a href="/edit/<%= b.id %>" class="press-start-2p-regular">
+                    <%= b.title %>
+                </a>
+                <br>
+            </li>
+        </ul>
+
+    <% }) %>
+<%- include("partials/footer.ejs") %>
