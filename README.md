@@ -8,5 +8,5 @@ node_modules not included since package.json has the dependencies, and i dont wi
   <code>npm i</code>
   <br>
   <li>Run via: </li>
-  <code>nodemon index.js</code>
+  <code>node index.js</code>
 </ol>
