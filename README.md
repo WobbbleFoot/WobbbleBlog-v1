@@ -4,7 +4,7 @@ Very basic Node + Express blog website with some kinda crude CRUD. non persisten
 node_modules not included since package.json has the dependencies, and i dont wish to compete with TON 618.
 
 <ol>
-  <li>Install via: </li>
+  <li>Install dependencies via: </li>
   <code>npm i</code>
   <br>
   <li>Run via: </li>
