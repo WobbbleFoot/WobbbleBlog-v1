@@ -138,12 +138,12 @@ ul {
 
 .view-container {
     color: yellow;
-    padding-left: 2vw;
+    padding-left: 3vw;
 }
 
 .view-title {
     color: rgb(250, 59, 155);
-    font-size: 3vw;
+    font-size: 1.5vw;
     margin-bottom: 3vw;
     margin-top: 6vw;
 }
